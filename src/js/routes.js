@@ -13,11 +13,11 @@ angular.module('RDash').config(['$stateProvider', '$urlRouterProvider',
         $stateProvider
             .state('index', {
                 url: '/',
-                templateUrl: 'templates/dashboard.html'
+                templateUrl: 'src/templates/dashboard.html'
             })
             .state('tables', {
                 url: '/tables',
-                templateUrl: 'templates/tables.html'
+                templateUrl: 'src/templates/tables.html'
             });
     }
 ]);
